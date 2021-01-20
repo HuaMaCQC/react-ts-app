@@ -1,0 +1,98 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          "ts",
+          "tsx"
+        ]
+      }
+    ],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "class-methods-use-this": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "max-classes-per-file": "off",
+    "import/no-unresolved": "off",
+    "no-undef": "warn",
+    "no-bitwise": "off",
+    "no-mixed-operators": "off",
+    "consistent-return": "warn",
+    "jsx-a11y/aria-role": "off",
+    //  Cannot read property 'range' of null Occurred while 
+    "template-curly-spacing": "off",
+    "indent": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "newline-per-chained-call": "off"
+  }
+}
+// {
+//   "parser": "babel-eslint",
+//   "env": {
+//       "browser": true,
+//       "es6": true,
+//       "mocha": true
+//   },
+//   "extends": "airbnb",
+//   "globals": {
+//       "Atomics": "readonly",
+//       "SharedArrayBuffer": "readonly"
+//   },
+//   "parserOptions": {
+//       "ecmaFeatures": {
+//           "jsx": true
+//       },
+//       "ecmaVersion": 2018,
+//       "sourceType": "module"
+//   },
+//   "plugins": [
+//       "react",
+//       "react-hooks"
+//   ],
+//   "rules": {
+//       "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+//       "react/jsx-uses-react": "error",
+//       "react/jsx-uses-vars": "error",
+//       "class-methods-use-this": "off",
+//       "react/prop-types": "off",
+//       "react-hooks/rules-of-hooks": "error",
+//       "react-hooks/exhaustive-deps": "warn",
+//       "max-classes-per-file": "off",
+//       "import/no-unresolved": "off",
+//       "no-undef": "warn",
+//       "no-bitwise": "off",
+//       "no-mixed-operators": "off",
+//       "consistent-return": "warn",
+//       "jsx-a11y/aria-role": "off",
+//       //  Cannot read property 'range' of null Occurred while 
+//       "template-curly-spacing" : "off",
+//       "indent": "off",
+//       "jsx-a11y/label-has-associated-control":"off",
+//       "newline-per-chained-call":"off"
+//   }
+// }
